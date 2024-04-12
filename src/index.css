@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+.container{
+    padding-left: 4%;
+    padding-right: 10%;
+}
+
+.btn{
+    background: lightsalmon;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn img{
+    width: 20px;
+    margin-left: 10px;
+}

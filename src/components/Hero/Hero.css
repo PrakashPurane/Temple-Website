@@ -1,0 +1,39 @@
+.hero{
+    width: 100%;
+    /* height: auto; */
+    min-height: 200vh;
+    background: linear-gradient(rgba(8,0,38,0.7),rgba(8,0,38,0.7)),
+    url('../../assets/temple.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+  
+    /* width: auto; */
+    /* background-size: cover; */
+    /* background-size: cover;
+    background-position: center; */
+}
+
+
+.hero-text{
+    text-align: center;
+    /* align-self:baseline; */
+    max-width: 800px;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+.hero-text p{
+    max-width: 700px;
+    margin: 20px auto 20px;
+    line-height: 1.4;
+    color: aliceblue;
+}
