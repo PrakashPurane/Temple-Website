@@ -5,7 +5,7 @@
     background: linear-gradient(rgba(8,0,38,0.7),rgba(8,0,38,0.7)),
     url('../../assets/temple.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /* background-position: center; */
     display: flex;
     align-items:center;
@@ -36,4 +36,18 @@
     margin: 20px auto 20px;
     line-height: 1.4;
     color: aliceblue;
+}
+
+@media (max-width: 1050px){
+    .hero-text h1{
+        font-size: 35px;
+    }
+
+ @media (max-width: 680px){
+        .hero-text h1{
+            font-size: 30px;
+            max-width: 400px;
+            margin: auto;
+        }
+    }
 }

@@ -1,6 +1,8 @@
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact ";
 import Experiences from "./components/Experiences/Experiences";
+import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -17,6 +19,8 @@ function App() {
   <Gallery/>
   <Rituals/>
   <Experiences/>
+  <Contact/>
+  <Footer/>
 
   </>
   )
