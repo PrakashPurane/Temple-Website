@@ -23,7 +23,7 @@ const Navbar = () => {
     <>
     <nav className={`container ${ sticky ? 'dark-nav' : ''}`}>
         <img src={logo} alt=" logo of temple"  className='logo'/>
-        <ul className={mobileMenu? '':'mobile-menu' }>
+        <ul className={mobileMenu?'':'mobile-menu'}>
             <li> <Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
             <li><Link to='about' smooth={true} offset={-260} duration={500}>About us </Link></li>
             <li><Link to='gallery' smooth={true} offset={-260} duration={500}>Gallery</Link></li>
@@ -31,7 +31,7 @@ const Navbar = () => {
             <li><Link to='experiences' smooth={true} offset={-260} duration={500}>Experiences </Link></li>
             <li> <Link to='contact' smooth={true} offset={200} duration={500} className='btn'>Contact us</Link></li>
         </ul>
-        <img src={menuicon} alt=""  className='menu-icon' onClick={toggleMenu}/>
+        <img src={menuicon} alt=""  className='menu-icon'  onClick={toggleMenu}/>
     </nav>
       
     </>

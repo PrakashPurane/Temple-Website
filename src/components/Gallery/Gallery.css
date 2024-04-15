@@ -54,3 +54,14 @@
     opacity: 1;
     padding-top: 0;
 }
+
+/* media query */
+@media (max-width: 810px){
+    .galleries{
+        flex-direction: column;
+    }
+    .gallery{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}

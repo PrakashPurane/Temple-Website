@@ -32,15 +32,31 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    cursor: pointer;
 }
 
 .about-right h1{
     
     color: brown;
-    margin: 10px;
+    margin: 41px;
 
 }
 
 .about-right p{
     padding: 4px;
+}
+
+/*media query */
+@media (max-width: 810px){
+    .about{
+        flex-direction: column;
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .about-right{
+        flex-basis: 100%;
+    }
 }

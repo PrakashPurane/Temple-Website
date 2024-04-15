@@ -26,3 +26,14 @@
     padding: 30px;
     
 }
+
+/*media query */
+@media (max-width: 810px){
+    .rituals{
+        flex-wrap: wrap;
+    }
+    .rituals img{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+}

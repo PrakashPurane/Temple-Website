@@ -26,28 +26,34 @@
 }
 
 .hero-text h1{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 200;
     color: aliceblue;
 }
 
 .hero-text p{
     max-width: 700px;
-    margin: 20px auto 20px;
-    line-height: 1.4;
+    padding: 50px;
+    font-size: 30px;
+    margin: 20px auto ;
+    line-height: 1.4;   
     color: aliceblue;
 }
 
-@media (max-width: 1050px){
+/* media query */
+@media (max-width: 1060px){
     .hero-text h1{
-        font-size: 35px;
+        font-size: 40px;
     }
-
- @media (max-width: 680px){
-        .hero-text h1{
-            font-size: 30px;
-            max-width: 400px;
-            margin: auto;
-        }
+}
+@media (max-width: 810px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
     }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    } 
 }
