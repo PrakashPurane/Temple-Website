@@ -5,7 +5,7 @@ import videoplayer from '../../assets/videoplayerr.mp4'
 const VideoPlayer = ({playState,setPlayState}) => {
     const player=useRef(null);
 
-    const closePlayer=()=>{
+    const closePlayer=(e)=>{
         if (e.target === player.current){
             setPlayState(false);
         }
